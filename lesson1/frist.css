@@ -1,0 +1,12 @@
+p{
+    text-align: center;
+    background: lightblue;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border: solid 5px black;
+}
+header{
+    display:inline-block;
+}
