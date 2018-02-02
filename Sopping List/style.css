@@ -2,6 +2,7 @@
 body {
   background-color: 
   font-weight: 100;
+
 }
 
 header {
@@ -9,20 +10,36 @@ header {
   color:red;
   text-align:center;
 }
+.chackbox{
+  cursor: pointer;
+}
 .sub{
   padding:0;
 }
 main {
-  padding-left: 30%;
+  width: 700px;
+  padding-left: 15 px;
+  margin-left: 30%;
   background-color: rgb(36, 134, 36);
   all:nth-of-type(2n): rgb(, 186, 233);
   background-color: blue;
+  weight: 500px;
+div {
+  border-top: 4px;
+  border-bottom: 4px;
 }
+:hover{
+  border-top-color: white;
+  border-bottom-color: white;
+}
+:active{
+  text-decoration:line-through;
+}
+
 footer{
-  text-align:center;
-  weight:100;
-  padding-left: 15px; 
-  padding-right: 15px
+  text-align: center;
+  width: 200 px;
+  margin: 0 auto;
 }
 header p:first-of-type{
   font-size: 32px;

@@ -1,0 +1,54 @@
+header {
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #4a4f56;
+  text-align: center;
+  color: #e97f81;
+  width: 800px;
+}
+
+.title{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.subtitle{
+  font-size: 20px;
+}
+
+body {
+  width: 1200px;
+  height: 800px;
+  background-color: #3b3f45;
+  border: 25px;
+  border-color: #ffffff;
+}
+.wrapper {
+
+  width: 800px;
+  margin: 30px auto;
+  margin-bottom: 60px;
+  background-color: #84889d;
+}
+
+subwrapper {
+  display:inline-block;
+  position: relative;
+  width: 100%;
+}
+
+.button {
+  width: 100%;
+  color:#e97f81 ;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #4a4f56;
+  margin-top: 30px;
+  padding: 20px;
+  border:none;
+}
+ input:checked~p {
+   color: #a39daa;
+   text-decoration: line-through;
+ }

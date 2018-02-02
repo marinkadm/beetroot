@@ -1,0 +1,28 @@
+.contacts {
+  padding: 60px 0 100px;
+  &__title {
+    padding: 0 40 px;
+    font-size: 42 px;
+    color ;
+    text-transform: uppercase;
+    max-width: 1220px;
+    margin: 
+    &:before {
+      content:"";
+      positon: absolute;
+      top: 50%;
+      left: 15px;
+      transform: translate(-50%);
+      width: 10px;
+      height: 36px;
+
+    }
+  }
+
+  &__text {
+    font-size:16 px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    
+  }
+}

@@ -1,0 +1,27 @@
+.slider {
+&__slider-wrapper{
+  padding: 0 50px 50px;
+}
+}
+
+.slider {
+  display:flex;
+  &__photo {
+    flex: 1;
+  }
+  &__photo-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    img {
+      border:1 px splid $yellow;
+      width: 
+
+      $
+    }
+    $__info {
+      width: 50%;
+    }
+  }
+}
