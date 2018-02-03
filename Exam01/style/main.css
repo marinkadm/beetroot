@@ -1,0 +1,143 @@
+.agency-wrapper {
+  padding: 50px 130px 15px;
+  background-image: url('./../img/fon_heder.png');
+  background-repeat: no-repeat;
+  min-height: 900px;
+}
+
+.logo {
+float: left;
+}
+.nav-link {
+  font-size: 16pt;
+  color: #fff;
+  padding: 0 10px;
+  position: relative;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.agency-menu_items {
+  max-width: 830px;
+  padding-left: 285px;
+  float: right;
+  display:flex;
+  justify-content: space-between;
+  a.agency-menu_items {
+    padding: 0 15px;
+    font-weight: bold;
+  }
+}
+
+.agency-main{
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  
+}
+.agency--title{
+  padding-top: 250px;
+  font-size: 36px;
+  text-transform: uppercase;
+
+}
+
+.our-services__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 1170px;
+  padding:0 50px 115px;
+}
+.service {
+ width: 370px;
+ position: relative;
+ text-align: center;
+}
+
+.our-services__title {
+font-size: 24pt;
+padding: 35px 15px 170px;
+text-align: center;
+font-size: 22pt;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.service__subtitle {
+  font-size: 16pt;
+}
+
+
+
+.dolore-main-wrapper {
+  background: url('./../img/font_tel.png');
+  background-repeat: no-repeat;
+}
+.dolore-wrapper {
+max-width: 1170px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding: 0 165px;
+color:white;
+
+}
+.dolore-description {
+  width: 570px;
+  padding-left: 25px;
+}
+.dolore-description__title {
+  text-transform: uppercase;
+  font-size: 22pt;
+}
+
+a {
+  color:white;
+}
+.dolore-image {
+  width: 460px;
+  padding-top:75px;
+  padding-left: 200px;
+}
+
+
+.ourwork__wrapper {
+  max-width: 1170;
+  
+}
+.ourwork__title{
+  padding: 35px 0 170px;
+  text-align: center;
+  font-size: 22pt;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.ourwork__title:after {
+  content:"";
+  position: absolute;
+}
+
+.ourwork--photos_items {
+  max-width: 1170px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.works {
+  width: 370px;
+  height: 420px;
+  padding: 30px;
+}
+
+.btn {
+  position: relative;
+  width: 370px;
+  height: 60px;
+  background-color:white;
+  border: 1px solid black;
+  align: center;
+}
+.wrapper__btn {
+  width: 100%;
+  position: ;
+}
