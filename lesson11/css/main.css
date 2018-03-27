@@ -1,0 +1,253 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1;
+}
+
+.hidden {
+  overflow: hidden;
+  padding-right: 20px;
+}
+
+button, a {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:focus {
+  outline: none;
+}
+
+.header {
+  height: 100px;
+  background-color: #eaeaea;
+  transition: all 0.3s ease-in-out;
+}
+
+.header--sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}
+
+.header__wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.header__logo {
+  width: 100px;
+  height: 60px;
+  background-color: blanchedalmond;
+  transition: all 0.3s ease-in-out;
+}
+
+.header--sticky .header__logo {
+  width: 80px;
+  height: 40px;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav a {
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 0 30px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #222;
+  transition: all 0.3s ease-in-out;
+}
+
+.header__nav a:last-of-type {
+  padding-right: 0;
+}
+
+.header__nav a:hover {
+  color: pink;
+}
+
+.header__nav a.active {
+  color: blue;
+}
+
+.section {
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.button__page-up {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: aqua;
+  color: #666;
+  font-size: 24px;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  pointer-events: none;
+  cursor: pointer;
+}
+
+.button__page-up:hover {
+  background-color: chocolate;
+  color: #fff;
+}
+
+.button__page-up:focus {
+  outline: none;
+}
+
+.button__page-up.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: 200;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0);
+}
+
+.modal--show {
+  opacity: 1;
+  pointer-events: auto;
+  transform: scale(1);
+}
+
+.modal__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.modal__wrapper {
+  max-width: 90%;
+  width: 600px;
+  height: auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.modal__header {
+  background-color: cornflowerblue;
+  color: #fff;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px 5px 0 0;
+  font-size: 18px;
+}
+
+.modal__btn--close {
+  background-color: transparent;
+  font-size: 24px;
+  border: none;
+  color: #fff;
+}
+
+.modal__btn--close:hover {
+  color: darkslateblue;
+}
+
+.modal__body {
+  padding: 15px;
+  line-height: 1.5;
+}
+
+.modal__footer {
+  border-top: 1px solid #666;
+  padding: 15px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.modal__btn--cancel {
+  border: none;
+  background-color: transparent;
+  color: #333;
+  margin-right: 15px;
+  font-size: 16px;
+}
+
+.modal__btn--cancel:hover {
+  color: darkslateblue;
+}
+
+.modal__btn--submit {
+  padding: 0 20px;
+   height: 40px;
+   background-color: cornflowerblue;
+   color: #fff;
+   border: none;
+   border-radius: 4px;
+   transition: all 0.3s ease-in-out;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+.modal__btn--submit:hover {
+  background-color: darkslateblue;
+}
+
+
+.section-about__btn--show-modal {
+  width: 150px;
+  height: 40px;
+  background-color: cornflowerblue;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+  margin: 20px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.section-about__btn--show-modal:hover {
+  background-color: darkslateblue;
+}
+
+.section-about__btn--show-modal:focus {
+  outline: none;
+}

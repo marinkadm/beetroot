@@ -1,0 +1,20 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.simple-map {
+  width: 100%;
+  height: 350px;
+}
+
+.simple-map iframe {
+  width: 100%;
+  height: 100%;
+}
+.space {
+  height: 150px;
+}
